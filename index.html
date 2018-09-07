@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script src = "three.js">
+            var scene, camera, renderer;
+            
+            init();
+            animate();
+            
+            //Scene setup
+            function init() {
+                //Create scene, set size
+                scene = new THREE.Scene();
+                var WIDTH = window.innerWidth,
+                HEIGHT = window.innerHeight;
+        
+                //Create renderer, add it to DOM
+                renderer = new THREE.WebGLRenderer({antialias:true});
+                renderer.setSize(WIDTH,HEIGHT);
+                document.body.appendChild(renderer.domElement);
+                
+                //Create camera, zoom it out, add to scene
+                camera = new THREE.PerspectiveCamera(45,WIDTH / HEIGHT,0.1,200000);
+                camera.position.set(0,6,0);
+                scene.add(camera);
+                
+                //Create event listener to resize renderer with browser window
+                window.addEventListener('resize',function() {
+                    var WIDTH = window.innerWidth,
+                        HEIGHT = window.innerHeight;
+                    renderer.setSize(WIDTH,HEIGHT);
+                    camera.aspect = WIDTH / HEIGHT;
+                    camera.updateProjectionMatrix();
+                });
+                
+                //Background color
+                renderer.setClearColorHex(0x333F47,1);
+                
+                //Create light
+                var light = new THREE.PointLight(0xffffff);
+                light.position.set(-100,200,100);
+                scene.add(light);
+                
+                //Load in the mesh, add to scene
+                var loader = new THREE.JSONLoader();
+                loader.load("models/treehouse_logo.js",function(geometry){
+                    var material = new THREE.MeshLambertMaterial({color:0x55B663});
+                    mesh = new THREE.Mesh(geometry,material);
+                    scene.add(mesh);
+                });
+                
+                //Add OrbitControls for mouse movement
+                controls = new THREE.OrbitControls(camera,renderer.domElement)
+                
+                
+            }
+            
+            function animate(){
+                requestAnimationFrame(animate);
+                
+                //Render the scene
+                renderer.render(scene,camera);
+                controls.update();
+            }
+                
+                
+                
+            
+        </script>
+    </body>
+</html>
