@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/LampPost1.obj-0fe2fec40e2ca6662e1c3e965c7655aa.mesh"
+
+[deps]
+
+files=[ "res://.import/LampPost1.obj-0fe2fec40e2ca6662e1c3e965c7655aa.mesh" ]
+
+source_file="res://3D objects and materials/LampPost1.obj"
+source_md5="ad0b23b54cdd908f49d3bd04c6c4b71e"
+
+dest_files=[ "res://.import/LampPost1.obj-0fe2fec40e2ca6662e1c3e965c7655aa.mesh", "res://.import/LampPost1.obj-0fe2fec40e2ca6662e1c3e965c7655aa.mesh" ]
+dest_md5="45851f64823720cbc0b2757094108560"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

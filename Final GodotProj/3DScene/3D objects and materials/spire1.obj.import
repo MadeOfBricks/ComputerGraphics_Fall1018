@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/spire1.obj-e2fa7a9d9ab71052fb03848692c0920c.mesh"
+
+[deps]
+
+files=[ "res://.import/spire1.obj-e2fa7a9d9ab71052fb03848692c0920c.mesh" ]
+
+source_file="res://3D objects and materials/spire1.obj"
+source_md5="61b4d2abe23b4c6764a91c8756500e8f"
+
+dest_files=[ "res://.import/spire1.obj-e2fa7a9d9ab71052fb03848692c0920c.mesh", "res://.import/spire1.obj-e2fa7a9d9ab71052fb03848692c0920c.mesh" ]
+dest_md5="611f26f63f19a3eb4ce31de2dc9d6470"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

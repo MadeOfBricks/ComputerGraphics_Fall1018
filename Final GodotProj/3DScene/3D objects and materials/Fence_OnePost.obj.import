@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Fence_OnePost.obj-b24dce37de61d982b59ba85144ed8022.mesh"
+
+[deps]
+
+files=[ "res://.import/Fence_OnePost.obj-b24dce37de61d982b59ba85144ed8022.mesh" ]
+
+source_file="res://3D objects and materials/Fence_OnePost.obj"
+source_md5="9b39696d378ef7ed997dff65203fb563"
+
+dest_files=[ "res://.import/Fence_OnePost.obj-b24dce37de61d982b59ba85144ed8022.mesh", "res://.import/Fence_OnePost.obj-b24dce37de61d982b59ba85144ed8022.mesh" ]
+dest_md5="3678836a429fe24fbb721ae9650bcfb0"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

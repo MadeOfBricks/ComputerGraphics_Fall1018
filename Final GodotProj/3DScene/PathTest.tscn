@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/PathTester.gd" type="Script" id=1]
+
+[sub_resource type="Curve3D" id=1]
+
+bake_interval = 0.2
+_data = {
+"points": PoolVector3Array(  ),
+"tilts": PoolRealArray(  )
+}
+
+[node name="PathTest" type="Spatial"]
+
+[node name="Path" type="Path" parent="." index="0"]
+
+curve = SubResource( 1 )
+script = ExtResource( 1 )
+
+

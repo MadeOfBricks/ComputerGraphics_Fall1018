@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Capsule1.obj-738072e409a37174e69d91ab4f27850f.mesh"
+
+[deps]
+
+files=[ "res://.import/Capsule1.obj-738072e409a37174e69d91ab4f27850f.mesh" ]
+
+source_file="res://3D objects and materials/Capsule1.obj"
+source_md5="a2e139a6f6a17e0eb8cbdb33e52a473e"
+
+dest_files=[ "res://.import/Capsule1.obj-738072e409a37174e69d91ab4f27850f.mesh", "res://.import/Capsule1.obj-738072e409a37174e69d91ab4f27850f.mesh" ]
+dest_md5="63f9556589cc7c18f0e1e37983994202"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

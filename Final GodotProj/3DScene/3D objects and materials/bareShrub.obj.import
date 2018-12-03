@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bareShrub.obj-dbc559a96235aaaf1d07a9696ecbf957.mesh"
+
+[deps]
+
+files=[ "res://.import/bareShrub.obj-dbc559a96235aaaf1d07a9696ecbf957.mesh" ]
+
+source_file="res://3D objects and materials/bareShrub.obj"
+source_md5="c38f099626cee622768f9101b74a27c7"
+
+dest_files=[ "res://.import/bareShrub.obj-dbc559a96235aaaf1d07a9696ecbf957.mesh", "res://.import/bareShrub.obj-dbc559a96235aaaf1d07a9696ecbf957.mesh" ]
+dest_md5="04d98cc2a43bdc360aa39e6ad3a8d996"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
